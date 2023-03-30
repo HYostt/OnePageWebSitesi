@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Blog</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!--! header baslangıc  -->
+    <header class="header">
+      <a href="index.html" class="logo">
+        <img src="images/logoo.jpg" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html" class="active">Ana Sayfa</a>
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="menu.html">Menu</a>
+        <a href="urunler.html">Ürünler</a>
+        <a href="iletisim.html">İletişim</a>
+        <a href="blog.html">Bloglar</a>
+      </nav>
+
+      <div class="buttons">
+        <button id="search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+        <button id="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="search-form">
+        <input
+          type="text"
+          class="search-input"
+          id="search-box"
+          placeholder="Arama"
+        />
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-1.png" alt="menu" />
+          <div class="content">
+            <h3>Auto Rifle</h3>
+            <div class="price">$1649.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-2.png" alt="menu" />
+          <div class="content">
+            <h3>Sniper Gun</h3>
+            <div class="price">$4999.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-3.png" alt="menu" />
+          <div class="content">
+            <h3>Magitek Gun</h3>
+            <div class="price">$9999.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-4.png" alt="menu" />
+          <div class="content">
+            <h3>Uzi</h3>
+            <div class="price">$164.99/-</div>
+          </div>
+        </div>
+        <a href="#" class="btn">Sepete Git</a>
+      </div>
+    </header>
+    <!--! header bitis  -->
+
+    <!--! blogs  baslangıc  -->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">Bloglarımız <span>$</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-1.jpg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">Silah Temizleme</a>
+            <span>Hakan / 21 10, 2000</span>
+            <p>
+              "When the pin is pulled, Mr Grenade is not our fribitis"
+              - U.S. Army Training Notice
+              "If Your attack is going too well, you're walking into an ambush"
+            </p>
+            <a href="#" class="btn">Daha fazlası</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-2.jpg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">Silah Eklentileri</a>
+            <span>Deniz / 21 04, 2022</span>
+            <p>
+              "Whoever said the pen is mightier than the sword obviously never encountered automatic weapons".
+
+            -General Douglas MacArthur
+            </p>
+            <a href="#" class="btn">Daha fazlası</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-3.jpg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">Teçhizat</a>
+            <span>Batu / 14 03, 2022</span>
+            <p>
+              "In war, Truth is the first casaulty" Aeschylus
+              "So long as there men, there will be wars"
+              -Albert Einstein
+              "If the enemy is in range, So are you"
+            </p>
+            <a href="#" class="btn">Daha fazlası</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! blogs  bitis  -->
+
+    <!--! footer  baslangıc  -->
+    <section class="footer">
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Arama" />
+        <button class="btn btn-primary">Arama</button>
+      </div>
+      <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="links">
+        <a href="#" class="active">Ana Sayfa</a>
+        <a href="#">Hakkımızda</a>
+        <a href="#">Menu</a>
+        <a href="#">ürünler</a>
+        <a href="#">İletişim</a>
+        <a href="#">Bloglar</a>
+      </div>
+    <!--! footer  bitis  -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
